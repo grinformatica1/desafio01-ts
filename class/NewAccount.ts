@@ -9,5 +9,6 @@ export class NewAccount extends DioAccount {
     deposit = (balance: number) => {
         this.setBalance(balance + 10)
         console.log('Você depositou')
+        
     }
 }
